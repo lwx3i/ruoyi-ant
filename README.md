@@ -1,7 +1,7 @@
 <h1 align="center">ry-ant</h1>
 
 
-本项目fork自ruoyi-cloud
+本项目fork自ruoyi-cloud，旨在简化前端版本，使其更易用
 ----
 
 
