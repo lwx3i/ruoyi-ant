@@ -7,10 +7,9 @@
     "build": "vue-cli-service build",
     "report": "vue-cli-service build --report",
     "build:preview": "vue-cli-service build --mode preview",
-    "lint": "vue-cli-service lint",
+    "lint": "eslint --fix --ext .js,.vue,.ts src",
     "lint:nofix": "vue-cli-service lint --no-fix",
-    "test:unit": "vue-cli-service test:unit",
-    "postinstall": "opencollective-postinstall"
+    "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "@antv/data-set": "^0.10.2",
@@ -63,15 +62,10 @@
     "eslint-plugin-vue": "^5.2.3",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
-    "opencollective": "^1.0.3",
-    "opencollective-postinstall": "^2.0.2",
+    "prettier": "^1.19.1",
     "vue-svg-icon-loader": "^2.1.1",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.43.0",
     "webpack-theme-color-replacer": "^1.2.17"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "http://doc.rycloud.zmrit.com/#/donate"
   }
 }
