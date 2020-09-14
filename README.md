@@ -1,4 +1,4 @@
-<h1 align="center">ryant</h1>
+<h1 align="center">ry-ant</h1>
 
 
 本项目fork自ruoyi-cloud
@@ -9,7 +9,7 @@
 运行项目需要启动后端ruoyi-cloud，[传送门](https://github.com/zhangmrit/ruoyi-cloud)
 
 源码地址:
-- [Github](https://github.com/lwx3i/ryant)
+- [Github](https://github.com/lwx3i/ry-ant)
 
 
 Overview
@@ -27,8 +27,8 @@ Overview
 
 - 拉取项目代码
 ```bash
-git clone https://github.com/lwx3i/ryant.git
-cd ryant
+git clone https://github.com/lwx3i/ry-ant.git
+cd ry-ant
 ```
 
 - 安装依赖
